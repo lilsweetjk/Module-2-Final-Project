@@ -1,0 +1,11 @@
+/* GENERAL */
+
+.purple {
+    color: #6415ff
+}
+
+/* NAV */
+
+.nav__row {
+    display: flex;
+}
