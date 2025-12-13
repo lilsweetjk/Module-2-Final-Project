@@ -1,11 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
 
 .purple {
     color: #6415ff
 }
 
+.container {
+    padding: 96px 0px
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* NAV */
 
-.nav__row {
+#landing {
+    padding: 0px 32px;
+}
+
+.nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.row.nav__row {
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0px 0px;
+    margin: 0;
+}
+
+.nav__logo {
+    display: flex;
+    margin: 8px 0px;
+}
+
+.nav__logo--img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav__logo--title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 0px 12px;
+    padding: 4px
+}
+
+.nav__links {}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 12px;
+    margin: 0px 24px;
+}
+
+/* HEADER */
+
+.header__description {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.header__img {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
